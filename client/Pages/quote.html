@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Quotation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+   
+    <!-- Favicon -->
+    <link href="../images/logo/logo.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+    <!-- Favicon -->
+    <link href="../images/logo/logo.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+    <link href="/client/css/quote.css" rel="stylesheet">
+    <style>
+             .quoteIcon{
+                width: 70px;
+                height: 70px;
+                object-fit: contain;
+             }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+  
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Beirut,Lebanon</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+961 70 677 712</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/company/secufleet/" target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/secufleet?igsh=MTVybWJoM21vcjFodw==" target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+
+        <script defer src="../js/navbar.js"></script>
+        <div id="navbar-container"></div>
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">Free Quote</h1>
+                    <a href="../Home/index.html" class="h5 text-white">Home</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="" class="h5 text-white">Free Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Quote Start -->
+   
+   
+    <div class="service-container" id="service-container">
+        <div class="title">
+            <h1>Select a Service</h1>
+        </div>
+        <div class="service bounce-top" id="fleet-service" onclick="showFleetQuestions('fleet')">
+            <div><img src="/client/images/icons/fleet-management.png" class="serviceCard"></div>
+            Fleet Management
+        </div>
+        <div class="service bounce-top" id="web-service" onclick="showWebQuestions('webDev')">
+            <div>
+                <img src="/client/images/icons/services/web2.png" class="serviceCard"/>
+            </div>
+            Web Development
+        </div>
+        <div class="service bounce-top" id="app-service" onclick="showAppQuestions('appDev')">
+            <div> <img src="/client/images/icons/services/appDev.png" class="serviceCard"/></div>
+            App Development
+        </div>
+        <div class="service bounce-top" id="consulting-service" onclick="showConsultingQuestions('consulting')">
+            <div>
+                <img src="/client/images/icons/services/consulting2.png" class="serviceCard"/>
+            </div>
+            Consulting
+        </div>
+    </div>
+
+    <section id="fleet" class="fleet-questions  hidden">
+        <div class="progress-container">
+            <span id="fleetprogress-text">0%</span>
+            <div class="progress">
+                <div id="fleetprogress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div id="fleet-question-container" class="text-center">
+            <div class="question" id="question-1">
+                <h2 class="text-center title">What types of vehicles do you have?</h2>
+                <div class="fleet-question-card question-card" data-answer="cars">
+                    <img src="/client/images/icons/quote/car.png"  alt="car tracking"  style="width:  75px;"/>
+                    <p>Cars</p>
+                    
+                </div>
+                <div class="fleet-question-card question-card" data-answer="electirc-car">
+                    <img src="/client/images/icons/quote/electric.png"  alt="electric vehicles tracking"  style="width: 60px;"/>
+                    <p>Electric Cars</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="trucks">
+                    <img src="/client/images/icons/quote/truck.png"  alt="Trucks tracking"  style="width:  55px;"/>
+                    <p>Trucks</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="bus">
+                    <img src="/client/images/icons/quote/bus.png"  alt="bus tracking"  style="width:  95px;"/>
+                    <p>Bus</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="construction-vehicles">
+                    <img src="/client/images/icons/quote/constructionVehicle.png" alt="construction vehicles tracking" style="width:  58px;"/>
+                    <p>Construction</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="semi-trailers">
+                    <img src="/client/images/icons/quote/semi-trailer.png"  alt="construction vehicles tracking"  style="width:  100px;"/>
+                    <p>Semi-trailers</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="logistics">
+                   <img src="/client/images/icons/logistic.png" alt="Logistic vehicles tracking" style="width: 60px;"/>
+                    <p>Logistics</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="boats">
+                    <img src="/client/images/icons/quote/boat.png" alt="Boats tracking" style="width:  60px;"/>
+                  
+                    <p>Boats</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="workforce">
+                    <img src="/client/images/icons/quote/workforce.png " alt="Workforce tracking" style="width: 87px;"/>
+                    <p>Workforce</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="moto">
+                    <img src="/client/images/icons/quote/JadMoto.png" alt="Moto and ATV tracking" style="width: 70px;"/>
+                    <p>Moto & ATV</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="others">
+                    <img src="/client/images/icons/other.png" alt="Fleet tracking" style="width:  60px;"/>
+                    <p>Others</p>
+                </div>
+            </div>
+            <div class="question" id="question-2" style="display:none;">
+                <h2 class="text-center">How many vehicles do you have?</h2>
+                <form>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="options" value="1-2">
+                            1 - 2
+                        </label>
+                    </div>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="options" value="3-10">
+                            3 - 10
+                        </label>
+                    </div>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="options" value="11-50">
+                            11 - 50
+                        </label>
+                    </div>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="options" value="50+">
+                            50+
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="question" id="question-3" style="display: none;">
+                <h2 class="text-center">What features are you interested in?</h2>
+                <div class="fleet-question-card question-card" data-answer="gps">
+                    <img class="quoteIcon" src="/client/images/icons/data-mappingIcon.png" alt="gps tracking"/>
+                    <p>GPS Tracking</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="eld">
+                    <img class="quoteIcon" src="/client/images/icons/eld.png" alt="gps tracking"/>
+                    <p>ELD</p>
+                </div>
+                <div class="fleet-question-card question-card cam" data-answer="cam">
+                    <img class="quoteIcon" src="/client/images/icons/dashcam.png" alt="Dash Camera"/>
+                    <p>Dash Cams</p>
+                </div>
+                <div class="fleet-question-card question-card cam" data-answer="cam">
+                    <img class="quoteIcon" src="/client/images/icons/adas.png" alt="adas and camera systems"/>
+                    <p>ADAS & Cams</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/worktime.png" alt="work time"/>
+                    <p>Work Time</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/efficiency.png" alt="work time"/>
+                    <p>Fleet Efficiency</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/digital-reports.png" alt="work time"/>
+                    <p>Digital Reports</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/sensor.png" alt="Sensor Monitoring"/>
+                    <p>Sensor Monitoring</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/driver-behavior.png" alt="Sensor Monitoring"/>
+                    <p>Driver Behaviour</p>
+                
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/car-inspection.png" alt="Dash Camera"/>
+                    <p>Vehicle</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/api.png" alt="Dash Camera"/>
+                    <p>API Integration</p>
+                   
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/asset-tracking.png" alt="Dash Camera"/>
+                    <p>Asset Tracking</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/maint.png" alt="Dash Camera"/>
+                    <p>Maintenance</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="maintenance">
+                    <img class="quoteIcon" src="/client/images/icons/route-planning.png" alt="Dash Camera"/>
+                    <p>Route Planning</p>
+                </div>
+                <div class="fleet-question-card question-card" data-answer="others">
+                    <img class="quoteIcon" src="/client/images/icons/other.png" alt="Dash Camera"/>
+                    <p>Others</p>
+                </div>
+            </div>
+            <div class="question" id="question-4" style="display:none;">
+                <h2 class="text-center">
+                    What is your email address?<br> This is the address to which we will send you all the information.
+                </h2>
+                <div class="form-group">
+                    <label for="email" class="emailLabel">Email:</label>
+                    <input type="email" id="email" class="email" placeholder="Enter your email" required>
+                </div>
+                
+                <span class="error" id="EmailError" style="color: red; font-size: large; display: none;">Please enter a valid email address.</span>
+             
+                <div class="form-group">
+                    <label for="fleetphone" class="phoneLabel">Phone Number:</label>
+                    <input type="tel" id="fleetphone" name="phone" class="phone" placeholder="Enter your phone number" required>
+                </div>
+              
+    <div class="form-group">
+        <label for="fleetcompany" class="companyLabel">Company Name:</label>
+        <input type="text" id="fleetcompany" name="company" class="company" placeholder="Enter your company name" required>
+    </div>
+            </div>
+        </div>
+        <section id="fleetbuttons">
+        <button id="back-btn" class="btn btn-secondary submit-btn" disabled>Back</button>
+        <button id="next-btn" class="btn btn-primary submit-btn" disabled>Next</button>
+        <button id="submit-btn" class="btn btn-primary submit-btn" onclick="fleetsubmitForm()" style="display: none;">Submit</button>
+    </section>
+    <div id="confirmation-section" class="confirmationSection" style="display: none;">
+        <h2 class="text-center">Thank you!</h2>
+        <p>We have received your quotation. We will get back to you shortly.</p>
+        <button id="submit-btn" class="btn btn-primary submit-btn" onclick="redirect()" >Home Page</button>
+    </div>
+    
+    </section>
+
+    <section id="webDev" class="webDev-questions  hidden">
+        <div class="progress-container" id="webprogress-container">
+            <span id="webprogress-text">0%</span>
+            <div class="progress">
+                <div id="webprogress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+
+                </div>
+            </div>
+        </div>
+        <div id="webdev-question-container" class="text-center">
+            <div class="question" id="webdev-question-1">
+                <h2 class="text-center">What kind of website do you need?</h2>
+                <div class="web-question-card question-card" data-answer="personal">
+                    <div><i class="bi bi-file-earmark-person" style="font-size: 28px;" ></i></div>
+                    <p>Personal Website</p>
+                </div>
+                <div class="web-question-card question-card" data-answer="business">
+                    <div><span class="material-symbols-outlined">
+                        add_business
+                        </span></div>
+                    <p>Business Website</p>
+                </div>
+                <div class="web-question-card question-card" data-answer="ecommerce">
+                    <div><img src="../images/quote/ecommerce.png" style="width: 40px;"></div>
+                    <p>E-commerce Store</p>
+                </div>
+                <div class="web-question-card question-card" data-answer="blog">
+                    <div><i class="fa-solid fa-blog" style="font-size: 35px;"></i></div>
+                    <p>Blog<br> Website</p>
+                   
+                </div>
+                <div class="web-question-card question-card" data-answer="portfolio">
+                    <div><img src="../images/quote/resume.png" style="width: 40px;"></div>
+                    <p>Portfolio Website</p>
+                   
+                </div>
+                <div class="web-question-card question-card" data-answer="landing">
+                    <div><img src="../images/quote/landingpage.png" style="width: 40px;"></div>
+                    <p>Landing Page Website</p>
+                  
+                </div>
+                <div class="web-question-card question-card" data-answer="other">
+                    <div><i class="fa-solid fa-code" style="width: 40px;"></i></div>
+                    <p>Other</p>
+                    <p>.</p>
+                </div>
+            </div>
+            <!-- Add more questions in similar format -->
+
+            <div class="question" id="webdev-question-2" style="display:none;">
+                <h2 class="text-center">Do you have a logo and branding guidelines?</h2>
+                <div class="web-question-card question-card" data-answer="yes">
+                    <div><i class="fa-regular fa-thumbs-up"style="font-size: 100px;" ></i></div>
+                    <p>Yes</p>
+                </div>
+                <div class="web-question-card question-card" data-answer="no">
+                    <div><i class="fa-solid fa-xmark" style="font-size: 100px;"></i></div>
+                    <p>No</p>
+                </div>
+                <div class="web-question-card question-card" data-answer="need-assistance">
+                    <div><i class="fa-solid fa-handshake-angle" style="font-size: 77px;"></i></div>
+                    <p>Need assistance </p>
+                </div>
+            </div>
+            <div class="question" id="webdev-question-3" style="display:none;">
+                <h2 class="text-center">Do you want the website to be single paged or multiple pages</h2>
+                <div class="web-question-card question-card" data-answer="1">
+                    <div><span class="material-symbols-outlined" style="font-size: 50px;">
+                        article
+                        </span></div>
+                    <p>Single Page</p>
+                </div>
+                <div class="web-question-card question-card" data-answer="4">
+                    <div><i class="fa-regular fa-copy" style="font-size: 57px;"></i></div>
+                    <p>2-4 Pages</p>
+                   
+                </div>
+                <div class="web-question-card question-card" data-answer="5">
+                    <div><span class="material-symbols-outlined" style="font-size:50px;">
+                        browse
+                        </span></div>
+                    <p>5+ Pages</p>
+                </div>
+
+            </div>
+            <div class="question" id="webdev-question-4" style="display:none;">
+                <h2 class="text-center">What do you need</h2>
+                <div class="web-question-card question-card" data-answer="front-end">
+                    <div><i class="fa-solid fa-code" style="font-size:40px;"></i></div>
+                    <p style="font-size: 17px;">Front end (client side)</p>
+                </div>
+                <div class="web-question-card question-card" data-answer="full-stack">
+                    <div><span class="material-symbols-outlined" style="font-size:38px;">
+                        database
+                        </span></div>
+                    <p>Client and Server side</p>
+                </div>
+                <div class="web-question-card question-card" data-answer="already-have-website">
+                    <div><span class="material-symbols-outlined" style="font-size:40px;">
+                        deployed_code
+                        </span>
+                    </div>
+                    <p>Already have a website?</p>
+                </div>
+                <div class="web-question-card question-card" data-answer="idk">
+                    <div><img src="/client/images/quote/dont-know.png" style="width: 47px;"></div>
+                    <p>I dont Know / Other</p>
+                </div>
+
+            </div>
+
+
+            <div class="question" id="webdev-question-5" style="display:none;">
+                <h2 class="text-center">
+                    What is your email address?<br/> This is the address to which we will send you all the information.
+                </h2>
+                <label class="emailLabel">Email:</label><br>
+                <input type="email" id="webdev-email" name="email" class="email" placeholder="Enter your email" required><br>
+                <span class="error" id="webdevEmailError" style="color: red; font-size: large; display: none;">Please enter a valid email address.</span><br><br>
+            
+                <label class="phoneLabel">Phone Number:</label><br>
+                <input type="tel" id="webdev-phone" name="phone" class="phone email" placeholder="Enter your phone number" required><br><br>
+            
+                <label class="companyLabel">Company Name:</label><br>
+                <input type="text" id="webdev-company" name="company" class="company" placeholder="Enter your company name" required><br><br>
+            </div>
+            
+          
+
+        </div>
+        <section id="Webbuttons"> 
+        <button id="webdev-back-btn" class="btn btn-secondary submit-btn" disabled>Back</button>
+        <button id="webdev-next-btn" class="btn btn-primary submit-btn" disabled>Next</button>
+        <button id="webdev-submit-btn" class="btn btn-primary submit-btn bounce-top" onclick="submitFormWeb()" style="display: none;">Submit</button>
+    </section>
+        <div id="Webconfirmation-section" class="confirmationSection" style="display: none;">
+            <h2 class="text-center">Thank you!</h2>
+            <p>We have received your quotation. We will get back to you shortly.</p>
+            <button  class="btn btn-primary submit-btn" onclick="redirect()" >Home Page</button>
+
+        </div>
+        
+    </section>
+    <section id="appDev" class="appDev-questions hidden">
+
+        <div class="progress-container" id="appprogress-container">
+            <span id="appprogress-text">0%</span>
+            <div class="progress">
+                <div id="appprogress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div>
+        </div>
+        <div id="appdev-question-container" class="text-center">
+            <!-- Question 1: Type of App -->
+            <div class="question" id="appdev-question-1">
+                <h2 class="text-center">What kind of app do you need?</h2>
+                <div class="app-question-card question-card" data-answer="mobile">
+                    <div><i class="fa-solid fa-mobile-alt" style="font-size: 28px;"></i></div>
+                    <p>Mobile App</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="web">
+                    <div><i class="fa-solid fa-globe" style="font-size: 28px;"></i></div>
+                    <p>Web App</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="desktop">
+                    <div><i class="fa-solid fa-desktop" style="font-size: 28px;"></i></div>
+                    <p>Desktop App</p>
+                </div>
+            </div>
+            
+            <!-- Question 2: Platform -->
+            <div class="question" id="appdev-question-2" style="display:none;">
+                <h2 class="text-center">Which platform(s) should the app support?</h2>
+                <div class="app-question-card question-card" data-answer="ios">
+                    <div><i class="fa-brands fa-apple" style="font-size: 28px;"></i></div>
+                    <p>iOS</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="android">
+                    <div><i class="fa-brands fa-android" style="font-size: 28px;"></i></div>
+                    <p>Android</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="both">
+                    <div><i class="fa-solid fa-mobile-alt" style="font-size: 28px;"></i></div>
+                    <p>Both</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="other">
+                    <div><i class="fa-solid fa-code" style="font-size: 28px;"></i></div>
+                    <p>Other</p>
+                    
+                </div>
+            </div>
+    
+            <!-- Question 3: Features -->
+            <div class="question" id="appdev-question-3" style="display:none;">
+                <h2 class="text-center">What features do you need?</h2>
+                <div class="app-question-card question-card" data-answer="user-authentication">
+                    <div><i class="fa-solid fa-user-lock" style="font-size: 28px;"></i></div>
+                    <p>User Authentication</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="payment-integration">
+                    <div><i class="fa-solid fa-credit-card" style="font-size: 28px;"></i></div>
+                    <p>Payment Integration</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="push-notifications">
+                    <div><i class="fa-solid fa-bell" style="font-size: 28px;"></i></div>
+                    <p>Push Notifications</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="social-media-integration">
+                    <div><i class="fa-solid fa-share-alt" style="font-size: 28px;"></i></div>
+                    <p>Social Media Integration</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="location-services">
+                    <div><i class="fa-solid fa-map-marker-alt" style="font-size: 28px;"></i></div>
+                    <p>Location Services</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="other">
+                    <div><i class="fa-solid fa-code" style="font-size: 28px;"></i></div>
+                    <br>
+                    <p>Other</p>
+                    
+                </div>
+            </div>
+    
+            <!-- Question 4: Design and Branding -->
+            <div class="question" id="appdev-question-4" style="display:none;">
+                <h2 class="text-center">Do you have a design or branding guidelines?</h2>
+                <div class="app-question-card question-card" data-answer="yes">
+                    <div><i class="fa-regular fa-thumbs-up" style="font-size: 100px;"></i></div>
+                    <p>Yes</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="no">
+                    <div><i class="fa-solid fa-xmark" style="font-size: 100px;"></i></div>
+                    <p>No</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="need-assistance">
+                    <div><i class="fa-solid fa-handshake-angle" style="font-size: 77px;"></i></div>
+                    <p>Need assistance</p>
+                </div>
+            </div>
+    
+            <!-- Question 5: Budget and Timeline -->
+            <div class="question" id="appdev-question-5" style="display:none;">
+                <h2 class="text-center">What is your budget and timeline?</h2>
+                <div class="app-question-card question-card" data-answer="low-budget">
+                    <div><i class="fa-solid fa-dollar-sign" style="font-size: 28px;"></i></div>
+                    <p>Low Budget (longer timeline)</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="medium-budget">
+                    <div><i class="fa-solid fa-dollar-sign" style="font-size: 28px;"></i></div>
+                    <br>
+                    <p>Medium Budget</p>
+                </div>
+                <div class="app-question-card question-card" data-answer="high-budget">
+                    <div><i class="fa-solid fa-dollar-sign" style="font-size: 28px;"></i></div>
+                    <p>High Budget (shorter timeline)</p>
+                </div>
+            </div>
+    
+            <!-- Contact Information -->
+            <div class="question" id="appdev-question-6" style="display:none;">
+                <h2 class="text-center">
+                    What is your email address?<br/> This is the address to which we will send you all the information.
+                </h2>
+                <label class="emailLabel">Email:</label><br>
+                <input type="email" id="appdev-email" name="email" class="email" placeholder="Enter your email" required><br>
+                <span class="error" id="appdevEmailError" style="color: red; font-size: large; display: none;">Please enter a valid email address.</span><br><br>
+            
+                <label class="phoneLabel">Phone Number:</label><br>
+                <input type="tel" id="appdev-phone" name="phone" class="phone email" placeholder="Enter your phone number" required><br><br>
+            
+                <label class="companyLabel">Company Name:</label><br>
+                <input type="text" id="appdev-company" name="company" class="company" placeholder="Enter your company name" required><br><br>
+            </div>
+        </div>
+        <section id="Appbuttons"> 
+            <button id="appdev-back-btn" class="btn btn-secondary submit-btn" disabled>Back</button>
+            <button id="appdev-next-btn" class="btn btn-primary submit-btn" disabled>Next</button>
+            <button id="appdev-submit-btn" class="btn btn-primary submit-btn bounce-top" onclick="submitFormApp()" style="display: none;">Submit</button>
+        </section>
+        <div id="Appconfirmation-section" class="confirmationSection" style="display: none;">
+            <h2 class="text-center">Thank you!</h2>
+            <p>We have received your quotation. We will get back to you shortly.</p>
+            <button class="btn btn-primary submit-btn" onclick="redirect()">Home Page</button>
+        </div>
+    
+</section>
+<section id="consulting" class="consulting-questions hidden">
+
+    <div class="progress-container" id="consultingprogress-container">
+        <span id="consultingprogress-text">0%</span>
+        <div class="progress">
+            <div id="consultingprogress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            </div>
+        </div>
+    </div>
+    <div id="consulting-question-container" class="text-center">
+        <!-- Question 1: Type of Consulting service -->
+        <div class="question" id="consulting-question-1">
+            <h2 class="text-center">What kind of consulting service do you need?</h2><br>
+            <div class="consulting-question-card question-card" data-answer="Business-Strategy">
+                <div><span class="material-symbols-outlined" style="width: 35px;">
+                    storefront
+                    </span>
+                </div>
+                <p>Business Strategy</p>
+                <br>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="customer-strategy">
+                <div><i class="fa-solid fa-users-viewfinder" style="font-size: 38px;"></i></div>
+                <p>Customer Strategy</p>
+                <br>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="operation-strategy">
+               
+                    <img src="/client/images/quote/operation.png" style="width: 35%;"/>
+               
+                <p>Operations Strategy</p>
+                <br>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="organizational-strategy">
+                <div>
+                    <img src="/client/images/quote/organ.png" style="width: 40%;" />
+               </div>
+                <p>Organizational Strategy</p>
+                <br>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="product&service-innovation">
+                <div>
+                    <img src="/client/images/quote/product.png" style="width: 55%;"/>
+                </div>
+                <p>Product & Service innovation</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="technology-strategy">
+                <div>
+                    <img src="/client/images/quote/tech.png" style="width: 40%;"/>
+                </div>
+                <p>Technology Strategy</p>
+                <br>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="digital-marketing-strategies">
+                <div>
+                    <img src="/client/images/quote/digital.png" style="width:60%;"/>
+                </div>
+                <p>Digital Marketing Strategies</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="Case-studies">
+                <div>
+                    <img src="/client/images/quote/case.png" style="width:58%;"/>
+                </div>
+                <p>Case Studies</p>
+                <br>
+                
+            </div>
+        
+        </div>
+        
+        <!-- Question 2: Platform -->
+        <div class="question" id="consulting-question-2" style="display:none;">
+            <h2 class="text-center">What are the main challenges you are facing?</h2>
+            <div class="consulting-question-card question-card" data-answer="market-competition">
+                <div>
+                    <img src="/client/images/quote/comp.png" style="width:60%;"/>
+                </div>
+                <p>Market Competition</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="customer-retention">
+                <div>
+                    <img src="/client/images/quote/customer.png" style="width: 48%;"/>
+                </div>
+                <p>Customer Retention</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="technological-innovation">
+                <div>
+                    <img src="/client/images/quote/tech.png" style="width: 53%;"/>
+                </div>
+                <p>Technological Innovation</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="cost-management">
+                <div>
+                    <img src="/client/images/quote/cost.png" style="width: 53%;"/>
+                </div>
+                <p>Cost Management</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="other">
+                <div>
+                    <img src="/client/images/quote/other.png" style="width: 75%;"/>
+                </div>
+                <p>Other</p>
+              
+            </div>
+        </div>
+
+        <!-- Question 3: Features -->
+        <div class="question" id="consulting-question-3" style="display:none;">
+            <h2 class="text-center">Are you looking for ongoing support or a one-time consultation?</h2>
+            <div class="consulting-question-card question-card" data-answer="ongoing-support">
+                <div>
+                    <img src="/client/images/quote/ongoing.png" style="width: 48%;"/>
+                </div>
+                <p>Ongoing Support</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="one-time-consultation">
+                <div>
+                    <img src="/client/images/quote/oneTime.png" style="width: 55%;"/>
+                </div>
+                <p>One-Time Consultation</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="not-sure">
+                <div>
+                    <img src="/client/images/quote/dont-know.png" style="width: 70%;"/>
+                </div>
+                <p>Not Sure</p>
+            </div>
+            
+        </div>
+
+        <!-- Question 4: Design and Branding -->
+        <div class="question" id="consulting-question-4" style="display:none;">
+            <h2 class="text-center">How many team members will be involved?</h2>
+            <div class="consulting-question-card question-card" data-answer="just-me">
+                <div><span class="material-symbols-outlined">
+                    person
+                    </span></div>
+                <p>Just Me</p>
+                <br>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="2-5">
+                <div><span class="material-symbols-outlined" style="font-size:50px;">
+                    group
+                    </span></i></div>
+                <p>2-5 Team Members</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="6-10">
+                <div><span class="material-symbols-outlined" style="font-size:50px;">
+                    groups
+                    </span></div>
+                <p>6-10 Team Members</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer=">10">
+                <img src="/client/images/quote/10.png" style="width: 50%;"/>
+                <p>More than 10 Team Members</p>
+            </div>
+        </div>
+
+        <!-- Question 5: Budget and Timeline -->
+        <div class="question" id="consulting-question-5" style="display:none;">
+            <h2 class="text-center">What is your expected timeline for completion?</h2>
+            <div class="consulting-question-card question-card" data-answer="<3">
+                <div>
+                    <img src="/client/images/quote/duration.png" style="width: 40%;"/>
+                </div>
+                <p>Less than 3 months</p>
+                
+            </div>
+            <div class="consulting-question-card question-card" data-answer="3-6">
+                <div> <img src="/client/images/quote/duration2.png" style="width: 50%;"/></div>
+                <br>
+                <p>3-6 months</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer="6-12">
+                <div> <img src="/client/images/quote/duration3.png" style="width: 50%;"/></div>
+                <br>
+                <p>6-12 months</p>
+            </div>
+            <div class="consulting-question-card question-card" data-answer=">1year">
+                <div> <img src="/client/images/quote/duration4.png" style="width: 50%;"/></div>
+                <p>More than 1 year</p>
+            </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="question" id="consulting-question-6" style="display:none;">
+            <h2 class="text-center">
+                What is your email address?<br/> This is the address to which we will send you all the information.
+            </h2>
+            <label class="emailLabel">Email:</label><br>
+            <input type="email" id="consulting-email" name="email" class="email" placeholder="Enter your email" required><br>
+            <span class="error" id="consultingEmailError" style="color: red; font-size: large; display: none;">Please enter a valid email address.</span><br><br>
+        
+            <label class="phoneLabel">Phone Number:</label><br>
+            <input type="tel" id="consulting-phone" name="phone" class="phone email" placeholder="Enter your phone number" required><br><br>
+        
+            <label class="companyLabel">Company Name:</label><br>
+            <input type="text" id="consulting-company" name="company" class="company" placeholder="Enter your company name" required><br><br>
+        </div>
+    </div>
+    <section id="consultingbuttons"> 
+        <button id="consulting-back-btn" class="btn btn-secondary submit-btn" disabled>Back</button>
+        <button id="consulting-next-btn" class="btn btn-primary submit-btn" disabled>Next</button>
+        <button id="consulting-submit-btn" class="btn btn-primary submit-btn bounce-top" onclick="submitFormConsulting()" style="display: none;">Submit</button>
+    </section>
+    <div id="consultingconfirmation-section" class="confirmationSection" style="display: none;">
+        <h2 class="text-center">Thank you!</h2>
+        <p>We have received your quotation. We will get back to you shortly.</p>
+        <button class="btn btn-primary submit-btn" onclick="redirect()">Home Page</button>
+    </div>
+
+</section>
+<div class="container-fluid py-5" style="background-color: #081f3e; margin-top: 8%;">
+    <div class="container py-5">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <!-- Main Heading -->
+                <h1 style="color: white; margin-bottom: 20px;">Prefer Direct Contact? Call Us</h1>
+                <br>
+                <!-- Subheading with Multiple Lines -->
+                <p style="color: white; margin-bottom: 20px;">
+                    Get in touch with our team today to receive a no-obligation quote tailored to your specific needs.<br>
+                    We're here to answer any questions you may have.<br>
+                    We'll provide detailed pricing information to help you make an informed decision.
+                </p>
+                <!-- <br/>
+                <br/> -->
+                <!-- Call to Action Box -->
+                <a href="https://wa.me/96170677712" class="d-inline-block text-decoration-none" style="background-color: rgba(233, 232, 232, 0.129); width: 30%; height: 20%;; ; display: inline-block;">
+                    <h5 style="color: rgb(6, 163, 218);text-align: center; margin-top: 3%;"> Let's Chat on WhatsApp</h5>
+                </a>
+                <!-- <br/> -->
+                <!-- Contact Information -->
+                <div class="row mt-4 justify-content-center">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center" >
+                        <i class="bi bi-telephone" style="font-size: 24px; color: white; margin-right: 7px; margin-top: -5px;" ></i>
+                       <a href="tel:+961 70677712" style="color: white;">Call to ask any question </a>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center justify-content-center mt-3 mt-md-0">
+                        <i class="bi bi-clock" style="font-size: 24px; color: white; margin-right: 7px; margin-top: -6px;"></i>
+                       
+                           <a href="https://wa.me/96170677712" style="color: white;"> Reply within 24 hours</a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Quote End -->
+    <!--Footer start-->
+    <script defer src="/client/js/footer.js"></script>
+    <div id="footer-container"></div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+    <script src="../js/quote.js"></script>
+
+</body>
+
+</html>

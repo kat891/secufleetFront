@@ -1,0 +1,341 @@
+.consultBack{
+    background-image: url('/client/images/consulting/test/best.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 45%;
+    height: 80vh;
+}
+.box-text{
+    color: white;
+    width: 100%;
+}
+.consultBack .row{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+.consultBack .container {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%; 
+background-color: rgba(0, 0, 0, 0.12);
+border-radius: 10px;
+}
+.contain .box{
+background-image: url('/client/images/consulting/test/Designer\ \(17\).jpeg');
+    background-size: cover;
+    background-position: center 45%;
+    color: white;
+}
+.contain .box span{
+background-color: #091e3e5a ;
+
+}
+
+@media (max-width: 762px) {
+.consultBack .row {
+width: 100%;
+}
+.mobile{
+background-color: #091e3e5a  ;
+}
+.mobileImg img{
+margin-top: 40px;
+
+}
+}
+.section-title h5{
+    font-size:1.1em;
+}
+.growth-text h5{
+    font-size:1.1em;
+}
+.containerBack {
+    background: url('/client/images/works/consulting/dubai-s-stunning-skyline-wallpaper.jpg') no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#section2 h1, #section2 p{
+color: white;
+}
+
+.containerBack::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.content h1 {
+    font-size: 5em;
+    color: white;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    background-color: #00a8ff;
+    border-radius: 5px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+    background-color: #10346c;
+    padding: 20px;
+    PADDING-LEFT: 200PX;
+    PADDING-RIGHT: 200PX;
+
+}
+
+.services-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.service-item img {
+    width: 250px;
+    height: 250px;
+    width: 100%;
+    max-width: 10000px;
+
+
+}
+
+.service-item span {
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+
+.growth-section {
+    background-color: #1a2942;
+    color: white;
+    padding: 20px;
+    background: url('/client/images/works/consulting/Untitled-10-11.png') no-repeat center center/cover;
+    /* width: 90%; */
+    /* margin-left: 5%; */
+}
+
+.growth-content {
+    display: flex;
+    gap: 20px;
+}
+
+.growth-content img {
+    width: 25%;
+    height: 25%;
+    margin-left: 250px;
+    margin-top: 180px;
+}
+
+.growth-text {
+    flex: 1;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0px solid #ccc;
+    font-size: 1.1em;
+
+
+}
+
+.growth-text ul {
+    list-style-type: disc;
+    color: white;
+    padding-left: 0;
+
+}
+
+.growth-text li::before {
+    content: "•";
+    color: WHITE;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+    
+}
+
+.growth-section h1 {
+    color: white;
+}
+
+.list {
+    color: #06a3da;
+    font-size: 30px;
+}
+
+
+
+
+.bullet {
+    color: white;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left:200px;
+    margin-right: 100px;
+    width: 1200px;
+    height: 300px;
+    margin-top: -50px;
+}
+
+.box {
+    background-color: #eaf6fa;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 10px;
+}
+
+.box i {
+    color: #4a90e2;
+    margin-right: 10px;
+}
+
+.box-text {
+    max-width: 500px;
+    line-height: 1.6;
+    border: 0px solid #ddd;
+    border-radius: 8px;
+    FONT-SIZE: 1.2EM;
+}
+.mb-4{
+    font-size: 1.3em;
+}
+
+@media (max-width: 1200px) {
+    .services-grid {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .services-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .growth-content img {
+        width: 35%;
+        margin-left: 20px;
+    }
+
+    .contain {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .containerBack h1 {
+        font-size: 3em;
+    }
+
+    .services-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .growth-content {
+        flex-direction: column;
+    }
+
+    .growth-content img {
+        width: 50%;
+        margin: 0 auto 20px;
+    }
+
+    .contain {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .services-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .growth-text {
+        padding: 10px;
+    }
+
+    .containerBack h1 {
+        font-size: 2em;
+    }
+
+    .box {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .containerBack {
+        height: 30vh;
+    }
+
+    .content h1 {
+        font-size: 2em;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+
+    .growth-content img {
+        width: 80%;
+    }
+
+    .box {
+        font-size: 1em;
+    }
+}

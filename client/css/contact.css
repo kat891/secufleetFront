@@ -1,0 +1,128 @@
+
+
+
+
+.contacts-banner {
+    /* background: url('/client/images/testing/bulding3.png') no-repeat center 70%; */
+    background: url('/client/images/contact/canva.png') no-repeat center;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-banner h1 {
+    font-size: 4rem;
+    letter-spacing: 10px;
+    padding: 2px;
+    color: white;
+  
+    border-radius: 10px;
+}
+
+.contact-info {
+    display: grid;
+    background-color: #091E3E;
+height: 90vh;
+}
+
+.map-container {
+    width: 100%;
+
+    /* position: relative; */
+    /* height: 70vh; */
+}
+
+.map {
+    background: url('/client/images/contact/baabda.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.contact-details {    
+    position: absolute;
+    justify-self:center;   
+    background-color: #091e3ea1; 
+    padding: 20px;
+    padding-right: 50px;
+    width: fit-content;
+    z-index: 1;
+    color: #fff;
+    border-radius: 10px;
+}
+.contact-details-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.contact-details h2 {
+    padding-left: 10px;
+
+    color: rgb(6, 163, 218);
+}
+.contact-details p {
+    font-size: 1.5rem;
+}
+.contact-details img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    /* padding: 10px; */
+}
+.worldwide {
+   
+    position: relative;
+    background-color: #091E3E;
+    text-align: center;
+}
+
+.worldwide h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: 2rem;
+    color: rgb(6, 163, 218);
+    z-index: 1;
+    background-color: rgba(9, 30, 62, 0.8); 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.map-worldwide {
+    position: relative;  
+}
+.map-worldwide img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.map-worldwide .location {
+    position: absolute;
+    background-color: #091e3ea1;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(6, 163, 218);
+    padding-right: 30px;
+    padding-left: 30px;
+    width: fit-content;
+    top: 0%;
+    
+}
+.map-worldwide .location h3{
+    color: rgb(6, 163, 218) ;
+}
+.map-worldwide .location img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+@media (max-width:768px) {
+    .map-worldwide img{
+        object-fit: cover;
+        height: 50vh;
+        width: 100%;
+    }
+}

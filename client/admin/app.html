@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Admin Page</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        #appdev-quotations-table {
+            margin-left: 0px;
+            margin-top: 50px;
+        }
+        table.one {
+            margin-bottom: 3em;
+            border-collapse: collapse;
+        }
+        td {
+            text-align: center;
+            width: 10em;
+            padding: 1em;
+        }
+        th {
+            text-align: center;
+            padding: 1em;
+            background-color: rgb(6, 163, 218);
+            color: white;
+        }
+        tr {
+            height: 1em;
+        }
+        table tr:nth-child(even) {
+            background-color: #eee;
+        }
+        table tr:nth-child(odd) {
+            background-color: white !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0">
+            <h1 class="m-0"><img src="../images/logo/logo.jpg" alt="logo" class="logo" /></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="/client/index.html" class="nav-item nav-link active">Home</a>
+                <a href="/client/admin/login.html" class="nav-item nav-link active">Admin Login</a>
+                <a href="/client/admin/adminPage.html" class="nav-item nav-link active">Web Page</a>
+                <a href="/client/admin/fleet.html" class="nav-item nav-link active">Fleet Page</a>
+                <a href="/client/admin/addCareers.html" class="nav-item nav-link active">Add Careers</a>  
+                <a href="/client/admin/viewCareers.html" class="nav-item nav-link active">View Careers</a>   
+                <a href="/client/admin/applicants.html" class="nav-item nav-link active">Applicants</a>  
+                <a href="/client/admin/app.html" class="nav-item nav-link active">App Page</a>   
+                <a href="/client/admin/consultingadmin.html" class="nav-item nav-link active">Consulting Page</a>  
+            </div>
+        </div>
+    </nav>
+    <h1>All App Development Quotations</h1>
+    <table id="appdev-quotations-table" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Company</th>
+                <th>App Type</th>
+                <th>Platforms</th>
+                <th>Features</th>
+                <th>Design Branding</th>
+                <th>Budget Timeline</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added here by JavaScript -->
+        </tbody>
+    </table>
+    <script src="/client/js/admin/appadmin.js"></script>
+</body>
+</html>

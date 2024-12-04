@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+.mb-0, .row {
+  padding: 10px;
+}
+@media (min-width:768px) {
+  .Features .scndRow{
+    margin-top: 30%;
+  }
+}
+
+.dropdown-item a{
+    text-decoration: none;
+}
+.quote{
+  height: 90vh;
+}
+.quoteVideo{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.quoteVideo video{
+    min-width: 100%;
+    min-height: 100%;
+    object-position: center;
+    object-fit: cover;
+
+}
+/* .quote{
+  background-image: url('/client/images/industrySlider/drifting.png'); 
+
+  background-position:center 41%; 
+  background-repeat: no-repeat;
+  height: 90vh;
+  padding-top:0px;
+  padding-bottom: 0;
+} */
+@media (max-width:500px) {
+  .whatsapp-icon{
+   visibility: hidden;
+  }
+}
+
+/* CSS */
+.whatsapp-icon {
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:rgb(6, 163, 218);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.whatsapp-icon i {   
+    font-size: 40px;
+    color: white;
+}
+.w3-xxlarge{
+    font-size: 30px;
+    color: white;
+}
+/* Quotation section */
+.btn-quote-transparent {
+  background-color: transparent;
+  border: 2px solid #06a3da;
+  border-radius: 50px;
+  padding: 15px 40px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #06a3da;
+  box-shadow: none;
+}
+
+.btn-quote-transparent h5 {
+  margin: 0;
+}
+
+.btn-quote-transparent:hover {
+  background-color: rgba(6, 163, 218, 0.1);
+  color: #ffffff;
+  box-shadow: 0px 8px 20px rgba(6, 163, 218, 0.3);
+  transform: translateY(-3px);
+}
+.request-img{
+  width: 8%;
+}
+@media  (max-width:768px) {
+.request-img{
+  width: 18%;
+}
+}
+@media (min-width:768px){
+  .quote{
+    background-size: 100%;
+  }
+}
+@media (max-width:992px) {
+  .quote{
+
+    margin-bottom: -21px;
+    /* height: 100vh; */
+  
+  }
+}
+
+  /****** who we are*****/
+  .section-4-vd {
+    position: relative;
+    width: 100%; /* Full width */
+    height: 60vh;
+    padding-top: 56.25%; 
+    overflow: hidden;
+  }
+  
+  .section-4-vd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+@media (min-width:768px) {
+  .who-we-are-content, .section-4-vd, .aboutSliderVideo, .quote{
+    animation:  bounce-in-right 1s ease-in;
+  }
+}
+   .who-we-are-section {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+  .who-we-are-content {
+    position: relative;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    z-index: 2;
+    border-radius: 10px;
+  }
+  
+  .who-we-are-title {
+    font-size: 30px;
+    color: #06A3DA;
+    margin-bottom: 20px;
+    font-weight: 900;
+  }
+  
+  .who-we-are-description-wrapper {
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+    padding: 0 20px;
+  }
+  
+  .who-we-are-description {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+    margin-top:30px;
+  }
+.Features h1, .Features p{
+  color: white !important;
+
+}
+.Features p{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Features h4{
+  color: #06a3da !important;
+}
+@media (max-width: 768px) {
+    .who-we-are-section {
+      /* margin: 100px 0; */
+    }
+  
+    .who-we-are-title {
+      font-size: 20px;
+    }
+  
+    .who-we-are-description {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .who-we-are-section {
+      padding: 20px;
+    }
+  
+    .who-we-are-content {
+      padding: 20px;
+    }  
+    .who-we-are-description-wrapper {
+      padding: 0;
+    }
+  }
+/* responsive */
+@media (min-width: 1368px) and (max-width: 1652px) {
+    .serv .dropdown-menu{
+        width: 35vw;
+    }
+}   
+@media (max-width: 768px) {
+    body{
+        width: 100%;     
+      }
+      .Features .scndRow{
+        margin-top: 30px;
+      }
+.aboutSlider{
+    max-width: 95%;
+    height: fit-content;
+}
+  video{
+    border: 1px solid black;
+  }
+  .aboutVd{
+   
+    width: 100%;
+  }
+
+  
+  .onfleetBody{
+    width: 100%;
+  }
+   
+
+}
+/* responsive end */

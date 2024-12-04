@@ -1,0 +1,131 @@
+
+.faq-background{
+    background-color:#091E3E ;
+}
+.faq-container {
+    width: 80%;
+    margin: 20px auto;  
+    padding: 20px;
+
+}
+
+.faq-container h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    -webkit-animation: none;
+    animation: none;
+
+}
+
+.toggle {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+.quote h1{
+  -webkit-animation: tracking-in-expand-fwd 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand-fwd 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+}
+.faq-item.active2 .faq-answer {
+    display: block;
+    -webkit-animation: tracking-in-expand-fwd 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand-fwd 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+}
+.faq-item .faq-answer.closing {
+    -webkit-animation: tracking-out-contract-bck 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: tracking-out-contract-bck 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.faq-item.active2 .toggle {
+    transform: rotate(45deg);
+}
+@-webkit-keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes tracking-out-contract-bck {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-500px);
+              transform: translateZ(-500px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes tracking-out-contract-bck {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-500px);
+              transform: translateZ(-500px);
+      opacity: 0;
+    }
+  }

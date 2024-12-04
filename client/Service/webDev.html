@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Development</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+    <!-- Favicon -->
+    <!-- <link href="../img/images/logo/logo.jpg" rel="icon"> -->
+    <link href="../images/logo/logo.jpg" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/lightgallery.js/dist/css/lightgallery.min.css" rel="stylesheet">
+    
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
+    rel="stylesheet">
+<!-- Isotope -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<!-- LightGallery -->
+<link href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0/dist/css/lightgallery.min.css" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="/client/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/client/css/style.css" rel="stylesheet">
+    <link href="/client/css/index.css" rel="stylesheet"/>
+    <link href="/client/css/Web.css" rel="stylesheet">
+    <link href="/client/css/animation.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/lightgallery-bundle.min.css">
+    <style>
+       .box{
+        background: radial-gradient(circle, #a1dff0 20%, rgb(6, 163, 218));
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+      } 
+      .box p{
+        color: white;
+        font-size: large;
+      }
+      .box:hover {
+    background: linear-gradient(to bottom right, #2ec7c9, #081f3e);
+}
+      .ourAdvantages img{
+        width: 100px;
+        height: 100px;
+      }
+      .video-background {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+/* Video styles */
+.video-background video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;       /* Ensures video fills the viewport */
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.discover {
+    position: relative;
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    z-index: 2;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* animation: bounce-in-right 0.8s ease-in-out both 0.2s; */
+}
+
+.btn-quote-transparent h5 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+/* Links */
+.webquote-link {
+  color: #ffffff;
+  font-size: 25px;
+  margin-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Ensure the section has overflow hidden to avoid scrollbars */
+section.webquote {
+  position: relative;
+  overflow: hidden;
+}
+.section1{
+  background-image: url('/client/images/works/web/backs/canva.jpeg'); 
+  background-position: center 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  justify-content: center;
+}
+.section1Text{
+  text-align: center;
+  justify-content: center;
+}
+.hideAll{
+  background-color: red;
+}
+.hideAll:hover{
+  background-color: rgb(6, 163, 218) !important;
+}
+    </style>
+</head>
+
+<body style="background-color: #091E3E;">
+ 
+
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+        <script defer src="../js/navbar.js"></script>
+        <div id="navbar-container"></div>
+        <div class="container-fluid bg-primary py-5 bg-header1">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">Web Development</h1>
+                    <a href="" class="h5 text-white">Home</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="../Service/webDev.html" class="h5 text-white">Web Development</a>
+                </div>
+            </div>
+        </div>
+
+             <!-- Latest Projects-->
+             <section class="section section-sm section-fluid bg-default text-center" id="projects">
+                <div class="container-fluid">
+                  <h2 class="wow fadeInLeft" style="color: white;">Latest Projects</h2>
+                  <p class="quote-jean wow fadeInRight" style="color: white;" data-wow-delay=".1s">
+                    In our portfolio, you can browse the latest products developed for our clients for different corporate purposes. Our qualified team of interface designers and software developers is always ready to create something unique for you.
+                  </p>
+                  <div class="isotope-filters isotope-filters-horizontal">
+
+                    <ul class="isotope-filters-list" id="isotope-3 article" >
+                        <li><a class="webactive" href="#article" data-isotope-filter="*" data-isotope-group="gallery">All</a></li>
+                        <li><a href="#article" data-isotope-filter=".Type1" data-isotope-group="gallery">Restaurants</a></li>
+                        <li><a href="#article" data-isotope-filter=".Type2" data-isotope-group="gallery">Admin Pages</a></li>
+                        <li><a href="#article" data-isotope-filter=".Type3" data-isotope-group="gallery">Hotels</a></li>
+                        <li><a href="#article" data-isotope-filter=".Type4" data-isotope-group="gallery">Cars</a></li>
+                        <li><a href="#article" data-isotope-filter=".Type5" data-isotope-group="gallery">Construction</a></li>
+                        <!-- <li> <a href="#article" data-isotope-filter=".Type6" data-isotope-group="gallery">App Pages</a></li> -->
+                        <li> <a href="#article" data-isotope-filter=".Type6" data-isotope-group="gallery">Interior Design</a></li>
+                        <li> <a href="#article" data-isotope-filter=".Type1111" class="hideAll" data-isotope-group="gallery">Hide All</a></li>
+
+                      </ul>
+                  </div>
+
+                  
+          
+                  <div class="row row-30 isotope" data-isotope-layout="fitRows" data-isotope-group="gallery"
+                   data-lightgallery="group">
+                    <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type1 wow fadeInRight" data-filter="Type 1">
+                      <!-- Thumbnail Classic-->
+                      <!--Restarauns start-->
+                      <!--Gallery 1-->
+                      <article class="thumbnail thumbnail-classic thumbnail-md" >
+                        <div class="thumbnail-classic-figure" id="gallery-1">
+                            <div id="lightgallery1" class="lightgallery">
+                                <a href="../images/works/web/rest/gusto/main.png" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/rest/gusto/main.png" alt="Home Page" />
+                                </a>
+                                <a href="../images/works/web/rest/gusto/ourSpecial.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/rest/gusto/ourSpecial.png" alt="Our Special"/>
+                                </a>
+                                <a href="../images/works/web/rest/gusto/ourStory.png" style="display: none;" class="project-link" data-lightgallery="group-item">
+                                    <img src="../images/works/web/rest/gusto/ourStory.png" alt="Our Story" />
+                                  </a>
+                               
+                                <a href="../images/works/web/rest/gusto/menu1.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/rest/gusto/menu1.png" alt="Menu"/>
+                                </a>
+                                <a href="../images/works/web/rest/gusto/menu2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/rest/gusto/menu2.png" alt="Menu"/>
+                                </a>
+                                <a href="../images/works/web/rest/gusto/contact.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/rest/gusto/contact.png" alt="Conact"/>
+                                </a>
+                            </div>
+                          <div class="thumbnail-classic-caption">
+                            <div class="thumbnail-classic-title-wrap">
+                               
+                             
+                                <span class="material-symbols-outlined search" >
+                                    zoom_in
+                                    </span>
+                                    
+                           
+                              
+                              <h5 class="thumbnail-classic-title">FinStep</h5>
+                            </div>
+                            <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                          </div>
+                        
+                    </div>
+                      </article>
+                    </div>
+                    <!-- Repeat for other projects -->
+                    <!--Gallery 2-->
+                    <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type1 wow fadeInRight" data-filter="Type1">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-classic thumbnail-md">
+                          <div class="thumbnail-classic-figure" id="gallery-2">
+                            <div id="lightgallery2" class="lightgallery">
+                              <a href="../images/works/web/rest/cafeHouse/main.png" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/rest/cafeHouse/main.png" alt="Home Page" />
+                              </a>
+                              <a href="../images/works/web/rest/cafeHouse/about.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/rest/cafeHouse/about.png" alt="Our Special"/>
+                              </a>
+                              <a href="../images/works/web/rest/cafeHouse/popular.png" style="display: none;" class="project-link" data-lightgallery="group-item">
+                                <img src="../images/works/web/rest/cafeHouse/popular.png" alt="Our Story" />
+                              </a>
+                              <a href="../images/works/web/rest/cafeHouse/menu.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/rest/cafeHouse/menu.png" alt="Menu"/>
+                              </a>
+                              <a href="../images/works/web/rest/cafeHouse/contact.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/rest/cafeHouse/contact.png" alt="Contact"/>
+                              </a>
+                            </div>
+                             <div class="thumbnail-classic-caption">
+                              <div class="thumbnail-classic-title-wrap">
+                               
+                                  <span class="material-symbols-outlined search">zoom_in</span>
+                                
+                                <h5 class="thumbnail-classic-title">Cafe House</h5>
+                              </div>
+                              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                            </div> 
+                          </div>
+                        </article>
+                      </div>
+                      <!--Gallery 3-->
+                      <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type1 wow fadeInRight" data-filter="Type1">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-classic thumbnail-md">
+                          <div class="thumbnail-classic-figure" id="gallery-3">
+                            <div id="lightgallery3" class="lightgallery">
+                              <a href="../images/works/web/rest/LiveDinner/home.png" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/rest/LiveDinner/home.png" alt="Home Page" />
+                              </a>
+                              <a href="../images/works/web/rest/LiveDinner/about.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/rest/LiveDinner/about.png" alt="Our Special"/>
+                              </a>
+                              <a href="../images/works/web/rest/LiveDinner/menu.png" style="display: none;" class="project-link" data-lightgallery="group-item">
+                                <img src="../images/works/web/rest/LiveDinner/menu.png" alt="Our Story" />
+                              </a>
+                              <a href="../images/works/web/rest/LiveDinner/gallery.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/rest/LiveDinner/gallery.png" alt="Menu"/>
+                              </a>
+                              <a href="../images/works/web/rest/LiveDinner/footer.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/rest/LiveDinner/footer.png" alt="Contact"/>
+                              </a>
+                            </div>
+                             <div class="thumbnail-classic-caption">
+                              <div class="thumbnail-classic-title-wrap">
+                                
+                                  <span class="material-symbols-outlined search">zoom_in</span>
+                                 
+                                <h5 class="thumbnail-classic-title">Live Dinner</h5>
+                              </div>
+                              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                            </div> 
+                          </div>
+                        </article>
+                      </div>
+                       <!--Restarauns end-->
+                       <!--Admin Start-->
+                           <!--Gallery 4-->
+                           <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type2 wow fadeInRight" data-filter="Type2">
+                            <!-- Thumbnail Classic-->
+                            <article class="thumbnail thumbnail-classic thumbnail-md">
+                              <div class="thumbnail-classic-figure" id="gallery-4">
+                                <div id="lightgallery4" class="lightgallery">
+                                  <a href="../images/works/web/admin/admin1/home1.png" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/admin/admin1/home1.png" alt="Home Page" />
+                                  </a>
+                                  <a href="../images/works/web/admin/admin1/home2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/admin/home2.png" alt="Home Page"/>
+                                  </a>
+                                  <a href="../images/works/web/admin/admin1/home3.png" style="display: none;" class="project-link" data-lightgallery="group-item">
+                                    <img src="../images/works/web/admin/admin1/home3.png" alt="Home Page" />
+                                  </a>
+                                  <a href="../images/works/web/admin/admin1/login.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/admin/admin1/login.png" alt="Login"/>
+                                  </a>
+                                  <a href="../images/works/web/admin/admin1/products.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/admin/admin1/products.png" alt="Products"/>
+                                  </a>
+                                  <a href="../images/works/web/admin/admin1/addProduct.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/admin/admin1/addProduct.png" alt="Add Products"/>
+                                  </a>
+                                  <a href="../images/works/web/admin/admin1/accounts2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/admin/admin1/accounts2.png" alt="Accounts"/>
+                                  </a>
+                                  <a href="../images/works/web/admin/admin1/accounts3.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/admin/admin1/accounts3.png" alt="Edit/Delete Account"/>
+                                  </a>
+                                </div>
+                                 <div class="thumbnail-classic-caption">
+                                  <div class="thumbnail-classic-title-wrap">
+                            
+                                      <span class="material-symbols-outlined search">zoom_in</span>
+                                    
+                                    <h5 class="thumbnail-classic-title"> Shopping Admin Page</h5>
+                                  </div>
+                                  <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                                </div> 
+                              </div>
+                            </article>
+                          </div>
+                          <!--Admin Start-->
+                          <!--Gallery 11-->
+                          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type2 wow fadeInRight" data-filter="Type2">
+                            <!-- Thumbnail Classic-->
+                            <article class="thumbnail thumbnail-classic thumbnail-md">
+                              <div class="thumbnail-classic-figure" id="gallery-11">
+                                <div id="lightgallery11" class="lightgallery">
+                                  <a href="/client/images/works/web/admin/admin2/admin.PNG" class="project-link" data-lightgallery="group-item">     
+                                    <img src="/client/images/works/web/admin/admin2/admin.PNG" alt="Home Page" />
+                                  </a>
+                                  <a href="/client/images/works/web/admin/admin2/invoicenew1.PNG" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="/client/images/works/web/admin/admin2/invoicenew1.PNG" alt="In Voice"/>
+                                  </a>
+                                  <a href="/client/images/works/web/admin/admin2/invoicenew2.PNG" style="display: none;" class="project-link" data-lightgallery="group-item">
+                                    <img src="/client/images/works/web/admin/admin2/invoicenew2.PNG" alt="In Voice" />
+                                  </a>
+                                  <a href="/client/images/works/web/admin/admin2/not.PNG" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="/client/images/works/web/admin/admin2/not.PNG" alt="Notification"/>
+                                  </a>
+                                  <a href="/client/images/works/web/admin/admin2/not1.PNG" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="/client/images/works/web/admin/admin2/not1.PNG" alt="Notification"/>
+                                  </a>
+                                  <a href="/client/images/works/web/admin/admin2/pagesnew1..PNG" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="/client/images/works/web/admin/admin2/pagesnew1..PNG" alt="Add Products"/>
+                                  </a>
+                                  <a href="/client/images/works/web/admin/admin2/signinew1.PNG" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="/client/images/works/web/admin/admin2/signinew1.PNG" alt="Sign in"/>
+                                  </a>
+                                  <a href="/client/images/works/web/admin/admin2/tables1.PNG" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="/client/images/works/web/admin/admin2/tables1.PNG" alt="Table"/>
+                                  </a>
+                                  <a href="/client/images/works/web/admin/admin2/tables2.PNG" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="/client/images/works/web/admin/admin2/table2.PNG" alt="Table"/>
+                                  </a>
+                                  <a href="/client/images/works/web/admin/admin2/tables3.PNG" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="/client/images/works/web/admin/admin2/table3.PNG" alt="Table"/>
+                                  </a>
+                                </div>
+                                 <div class="thumbnail-classic-caption">
+                                  <div class="thumbnail-classic-title-wrap">
+                            
+                                      <span class="material-symbols-outlined search">zoom_in</span>
+                                    
+                                    <h5 class="thumbnail-classic-title">Admin Page</h5>
+                                  </div>
+                                  <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                                </div> 
+                              </div>
+                            </article>
+                          </div>
+                          <!--hotel Start-->
+                          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type3 wow fadeInRight" data-filter="Type3">
+                            <!-- Thumbnail Classic-->
+                             <!--Gallery 5-->
+                            <article class="thumbnail thumbnail-classic thumbnail-md">
+                              <div class="thumbnail-classic-figure" id="gallery-5">
+                                <div id="lightgallery5" class="lightgallery">
+                                  <a href="../images/works/web/hotel/hotel1/home.png" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/hotel/hotel1/home.png" alt="Home Page" />
+                                  </a>
+                                  <a href="../images/works/web/hotel/hotel1/features.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/hotel/hotel1/features.png" alt="Features"/>
+                                  </a>
+                                  <a href="../images/works/web/hotel/hotel1/booking1.png" style="display: none;" class="project-link" data-lightgallery="group-item">
+                                    <img src="../images/works/web/hotel/hotel1/booking1.png" alt="Booking" />
+                                  </a>
+                                  <a href="../images/works/web/hotel/hotel1/booking2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/hotel/hotel1/booking2.png" alt="Booking"/>
+                                  </a>
+                                  <a href="../images/works/web/hotel/hotel1/special offers.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/hotel/hotel1/special offers.png" alt="Sepical Offers"/>
+                                  </a>
+                                  <a href="../images/works/web/hotel/hotel1/testom.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/hotel/hotel1/testom.png" alt="Testimonial"/>
+                                  </a>
+                                  <a href="../images/works/web/hotel/hotel1/footer.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/hotel/hotel1/footer.png" alt="Footer"/>
+                                  </a>
+                                  <a href="../images/works/web/admin/admin1/accounts3.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                    <img src="../images/works/web/admin/admin1/accounts3.png" alt="Edit/Delete Account"/>
+                                  </a>
+                                </div>
+                                 <div class="thumbnail-classic-caption">
+                                  <div class="thumbnail-classic-title-wrap">
+                                   
+                                      <span class="material-symbols-outlined search">zoom_in</span>
+                                      
+                                    <h5 class="thumbnail-classic-title">Ski Resort</h5>
+                                  </div>
+                                  <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                                </div> 
+                              </div>
+                            </article>
+                          </div>
+                          <!--Hotel end-->
+                           <!--Gallery 6-->
+                                                    <!--Cars Start-->
+                        <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type4 wow fadeInRight" data-filter="Type4">
+                                                        <!-- Thumbnail Classic-->
+                             <article class="thumbnail thumbnail-classic thumbnail-md">
+                                     <div class="thumbnail-classic-figure" id="gallery-6">
+                                        <div id="lightgallery6" class="lightgallery">
+                                            <a href="../images/works/web/CarRental/car1/home2.png" class="project-link" data-lightgallery="group-item">     
+                                                <img src="../images/works/web/CarRental/car1/home2.png" alt="Home Page" />
+                                            </a>
+                                            <a href="../images/works/web/CarRental/car1/home1.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                                <img src="../images/works/web/CarRental/car1/home1.png" alt="Features"/>
+                                            </a>
+                                            <a href="../images/works/web/CarRental/car1/about.png" style="display: none;" class="project-link" data-lightgallery="group-item">
+                                                <img src="../images/works/web/CarRental/car1/about.png" alt="Booking" />
+                                            </a>
+                                            <a href="../images/works/web/CarRental/car1/home1.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                                <img src="../images/works/web/CarRental/car1/home1.png" alt="Booking"/>
+                                            </a>
+                                            <a href="../images/works/web/CarRental/car1/home1.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                                <img src="../images/works/web/CarRental/car1/home1.png" alt="Sepical Offers"/>
+                                            </a>
+                                            <a href="../images/works/web/CarRental/car1/home1.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                                <img src="../images/works/web/CarRental/car1/home1.png" alt="Testimonial"/>
+                                            </a>
+                                            <a href="../images/works/web/CarRental/car1/home1.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                                <img src="../images/works/web/CarRental/car1/home1.png" alt="Footer"/>
+                                            </a>
+                                            <a href="../images/works/web/CarRental/car1/home1.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                                    <img src="../images/works/web/CarRental/car1/home1.png" alt="Edit/Delete Account"/>
+                                            </a>
+                                        </div>
+                                    <div class="thumbnail-classic-caption">
+                                        <div class="thumbnail-classic-title-wrap">
+                                                               
+                                            <span class="material-symbols-outlined search">zoom_in</span>                    
+                                                <h5 class="thumbnail-classic-title">Car Rental</h5>
+                                        </div>
+                                                <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                                    </div> 
+                                </div>
+                        </article>
+                    </div>
+                     <!--Cars end-->
+                      <!--Gallery 7-->
+                    <!--Construction Start-->
+                    <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type5 wow fadeInRight" data-filter="Type5">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-classic thumbnail-md">
+                          <div class="thumbnail-classic-figure" id="gallery-7">
+                            <div id="lightgallery7" class="lightgallery">
+                              <a href="../images/works/web//construction/constuction1/home1.png" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web//construction/constuction1/home1.png" alt="Home Page" />
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/home2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/home2.png" alt="Home Page"/>
+                              </a>
+
+                              <a href="../images/works/web//construction/constuction1/services1.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/services1.png" alt="Services"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/about.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/about.png" alt="About"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/testom.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/testom.png" alt="Testimonial"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/featured.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/featured.png" alt="Features"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/featured2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/featured2.png" alt="Features"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/feature3.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/feature3.png" alt="Features"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/contact.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/contact.png" alt="Contact"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/numbers.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/numbers.png" alt="Numbers"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/blog.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/blog.png" alt="Blog"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/footer.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/footer.png" alt="Footer"/>
+                              </a>
+                              <a href="../images/works/web//construction/constuction1/404.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/construction/constuction1/404.png" alt="404"/>
+                              </a>
+                            </div>
+                             <div class="thumbnail-classic-caption">
+                              <div class="thumbnail-classic-title-wrap">
+                               
+                                  <span class="material-symbols-outlined search">zoom_in</span>
+                                  
+                                <h5 class="thumbnail-classic-title">Construction</h5>
+                              </div>
+                              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                            </div> 
+                          </div>
+                        </article>
+                      </div>
+                       <!--Gallery 8-->
+                      <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type5 wow fadeInRight " style="padding-top: 10px;" data-filter="Type5">
+                        <!-- Thumbnail Classic-->
+<article class="thumbnail thumbnail-classic thumbnail-md">
+     <div class="thumbnail-classic-figure" id="gallery-8">
+        <div id="lightgallery8" class="lightgallery">
+            <a href="../images/works/web/construction/construction2/home1.png" class="project-link" data-lightgallery="group-item">     
+                <img src="../images/works/web/construction/construction2/home1.png" alt="Home Page" />
+            </a>
+            <a href="../images/works/web/construction/construction2/about.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                <img src="../images/works/web/construction/construction2/about.png" alt="About"/>
+            </a>
+            <a href="../images/works/web/construction/construction2/team.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                <img src="../images/works/web/construction/construction2/team.png" alt="Our Team"/>
+            </a>
+        
+            <a href="../images/works/web/construction/construction2/features.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                <img src="../images/works/web/construction/construction2/features.png" alt="Features"/>
+            </a>
+            <a href="../images/works/web/construction/construction2/projects.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                <img src="../images/works/web/construction/construction2/projects.png" alt="Projects"/>
+            </a>
+            <a href="../images/works/web/construction/construction2/recent.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                <img src="../images/works/web/construction/construction2/recent.png" alt="recent projects"/>
+            </a>
+            <a href="../images/works/web/construction/construction2/footer.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                <img src="../images/works/web/construction/construction2/footer.png" alt="Footer"/>
+            </a>
+          
+        </div>
+    <div class="thumbnail-classic-caption">
+        <div class="thumbnail-classic-title-wrap">
+                               
+            <span class="material-symbols-outlined search">zoom_in</span>                    
+                <h5 class="thumbnail-classic-title">Construction</h5>
+        </div>
+                <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+    </div> 
+</div>
+</article>
+</div>
+                    <!--construction end-->
+                     <!--Gallery 9-->
+                     <!-- <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type6 wow fadeInRight" data-filter="Type6">
+                        
+                        <article class="thumbnail thumbnail-classic thumbnail-md">
+                          <div class="thumbnail-classic-figure" id="gallery-9">
+                            <div id="lightgallery9" class="lightgallery">
+                              <a href="../images/works/web/appdev/sync/home1.png" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/appdev/sync/home1.png" alt="Home Page" />
+                              </a>
+                              <a href="../images/works/web/appdev/sync/home2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/appdev/sync/home2.png" alt="About Page"/>
+                              </a>
+
+                              <a href="../images/works/web/appdev/sync/home3.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/appdev/sync/home3.png" alt="Services"/>
+                              </a>
+                              <a href="../images/works/web/appdev/sync/home4.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/appdev/sync/home4.png" alt="Features"/>
+                              </a>
+                              <a href="../images/works/web/appdev/sync/home5.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/appdev/sync/home5.png" alt="Features"/>
+                              </a>
+                              <a href="../images/works/web/appdev/sync/home6.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/appdev/sync/home6.png" alt="Testimonial"/>
+                              </a>
+                              <a href="../images/works/web/appdev/sync/home7.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/appdev/sync/home7.png" alt="Features"/>
+                              </a>
+                              <a href="../images/works/web/appdev/sync/home8.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/appdev/sync/home8.png" alt="Footer"/>
+                              </a>
+                              
+                            </div>
+                             <div class="thumbnail-classic-caption">
+                              <div class="thumbnail-classic-title-wrap">
+                               
+                                  <span class="material-symbols-outlined search">zoom_in</span>
+                                  
+                                <h5 class="thumbnail-classic-title">Construction</h5>
+                              </div>
+                              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                            </div> 
+                          </div>
+                        </article>
+                      </div> -->
+                      
+                       <!--Gallery 10-->
+                      <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type6 wow fadeInRight" data-filter="Type6">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-classic thumbnail-md">
+                          <div class="thumbnail-classic-figure" id="gallery-10">
+                            <div id="lightgallery10" class="lightgallery">
+                              <a href="/client/images/works/web/InteriorDesign/home1.png" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/home1.png" alt="Home Page" />
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/home2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/home2.png" alt="Home"/>
+                              </a>
+
+                              <a href="/client/images/works/web/InteriorDesign/home3.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/home3.png" alt="About Us Page"/>
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/home4.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/home4.png" alt="Our Services"/>
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/home5.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/home5.png" alt="Why Choose Us"/>
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/home6.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/home6.png" alt="Our Projects"/>
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/home7.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/home7.png" alt="Book an Appointment"/>
+                              </a>
+                              <a href="../images/works/web/appdev/sync/home8.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="../images/works/web/appdev/sync/home8.png" alt="Footer"/>
+                              </a>
+                              
+                            </div>
+                             <div class="thumbnail-classic-caption">
+                              <div class="thumbnail-classic-title-wrap">
+                               
+                                  <span class="material-symbols-outlined search">zoom_in</span>
+                                  
+                                <h5 class="thumbnail-classic-title">Interior Design</h5>
+                              </div>
+                              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                            </div> 
+                          </div>
+                        </article>
+                      </div>
+                       <!--Gallery 12-->
+                       <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type3 wow fadeInRight" data-filter="Type3">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-classic thumbnail-md">
+                          <div class="thumbnail-classic-figure" id="gallery-12">
+                            <div id="lightgallery12" class="lightgallery">
+                              <a href="/client/images/works/web/hotel/hotel2/L1.png" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel2/L1.png" alt="Home Page" />
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel2/L2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel2/L2.png" alt="Events"/>
+                              </a>                        
+                              <a href="/client/images/works/web/hotel/hotel2/L4.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel2/L4.png" alt="Our Rooms"/>
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel2/L5.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel2/L5.png" alt="Why Rooms "/>
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel2/L6.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel2/L6.png" alt="Our Projects"/>
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel2/L7.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel2/L7.png" alt="About us"/>
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel2/L8.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel2/L8.png" alt="Contact Us"/>
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel2/L9.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel2/L9.png" alt="Footer"/>
+                              </a>
+                            </div>
+                             <div class="thumbnail-classic-caption">
+                              <div class="thumbnail-classic-title-wrap">
+                               
+                                  <span class="material-symbols-outlined search">zoom_in</span>
+                                  
+                                <h5 class="thumbnail-classic-title">Hotel</h5>
+                              </div>
+                              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                            </div> 
+                          </div>
+                        </article>
+                      </div>
+                      <!-- Gallery 14-->
+                      <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type1 wow fadeInRight" data-filter="Type1">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-classic thumbnail-md">
+                          <div class="thumbnail-classic-figure" id="gallery-14">
+                            <div id="lightgallery14" class="lightgallery">
+                              <a href="/client/images/works/web/rest/mana2esh/home1.png" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/rest/mana2esh/home1.png" alt="Home Page" />
+                              </a>
+                              <a href="/client/images/works/web/rest/mana2esh/home2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/rest/mana2esh/home2.png" alt="About Us"/>
+                              </a>                        
+                              <a href="/client/images/works/web/rest/mana2esh/home3.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/rest/mana2esh/home3.png" alt="Our Service"/>
+                              </a>
+                              <a href="/client/images/works/web/rest/mana2esh/home4.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/rest/mana2esh/home4.png" alt="Hot Meals "/>
+                              </a>
+                              <a href="/client/images/works/web/rest/mana2esh/home5.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/rest/mana2esh/home5.png" alt="Our Menu"/>
+                              </a>
+                              <a href="/client/images/works/web/rest/mana2esh/home6.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/rest/mana2esh/home6.png" alt="Our Menu"/>
+                              </a>
+                              <a href="/client/images/works/web/rest/mana2esh/home7.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/rest/mana2esh/home7.png" alt="Our Instagram"/>
+                              </a>
+                            </div>
+                             <div class="thumbnail-classic-caption">
+                              <div class="thumbnail-classic-title-wrap">
+                               
+                                  <span class="material-symbols-outlined search">zoom_in</span>
+                                  
+                                <h5 class="thumbnail-classic-title">Le Street four Lebanise</h5>
+                              </div>
+                              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                            </div> 
+                          </div>
+                        </article>
+                      </div>
+                      <!--Gallery 13-->
+                      <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type3 wow fadeInRight" data-filter="Type3">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-classic thumbnail-md">
+                          <div class="thumbnail-classic-figure" id="gallery-13">
+                            <div id="lightgallery13" class="lightgallery">
+                              <a href="/client/images/works/web/hotel/hotel3/home1.png" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel3/home1.png" alt="Home Page" />
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel3/home2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel3/home2.png" alt="About Us"/>
+                              </a>                        
+                              <a href="/client/images/works/web/hotel/hotel3/home3.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel3/home3.png" alt="Our Rooms"/>
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel3/home4.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel3/home4.png" alt="Recent Blogs "/>
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel3/home5.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel3/home5.png" alt="Our Instagram"/>
+                              </a>
+                              <a href="/client/images/works/web/hotel/hotel3/home6.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/hotel/hotel3/home6.png" alt="Our Food"/>
+                              </a>
+                           
+                            </div>
+                             <div class="thumbnail-classic-caption">
+                              <div class="thumbnail-classic-title-wrap">
+                               
+                                  <span class="material-symbols-outlined search">zoom_in</span>
+                                  
+                                <h5 class="thumbnail-classic-title">Construction</h5>
+                              </div>
+                              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                            </div> 
+                          </div>
+                        </article>
+                      </div>
+                      <!--Gallery 14-->
+                      <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item Type6 wow fadeInRight" style="padding-top: 10px;"  data-filter="Type6">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-classic thumbnail-md">
+                          <div class="thumbnail-classic-figure" id="gallery-14">
+                            <div id="lightgallery14" class="lightgallery">
+                              <a href="/client/images/works/web/InteriorDesign/interiorDesign2/home1.png" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/interiorDesign2/home1.png" alt="Home Page" />
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/interiorDesign2/home2.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/interiorDesign2/home2.png" alt="About Us"/>
+                              </a>                        
+                              <a href="/client/images/works/web/InteriorDesign/interiorDesign2/home3.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/interiorDesign2/home3.png" alt="Our Rooms"/>
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/interiorDesign2/home4.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/interiorDesign2/home4.png" alt="Recent Blogs "/>
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/interiorDesign2/home5.png"style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/interiorDesign2/home5.png" alt="Our Instagram"/>
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/interiorDesign2/home6.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/interiorDesign2/home6.png" alt="Our Food"/>
+                              </a>
+                              <a href="/client/images/works/web/InteriorDesign/interiorDesign2/home7.png" style="display: none;" class="project-link" data-lightgallery="group-item">     
+                                <img src="/client/images/works/web/InteriorDesign/interiorDesign2/home7.png" alt="Our Food"/>
+                              </a>
+                            </div>
+                             <div class="thumbnail-classic-caption">
+                              <div class="thumbnail-classic-title-wrap">
+                               
+                                  <span class="material-symbols-outlined search">zoom_in</span>
+                                  
+                                <h5 class="thumbnail-classic-title">Interior Design</h5>
+                              </div>
+                              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+                            </div> 
+                          </div>
+                        </article>
+                      </div>
+                      <!-- Repeat for other projects -->
+                    </div>
+                </div>
+                  </section>
+            
+            <!--background-->
+            <section class="discover wow bounceInRight" >        
+              <div class="video-background">
+                <video autoplay loop muted playsinline style="height: 60vh; width: 100%;">
+                    <source src="/client/images/works/web/webAnimation.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+                <div class="content">
+                    <h1>Let's Develop Your Next Great Website!</h1>
+                    <p>Do you need a unique software solution for your company? We know how to help you!</p>      
+            </div>
+          </section>
+
+    <!--Advantages Start-->
+    <section class="ourAdvantages" >
+    <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+        <h1 class="fw-bold text-primary text-uppercase" style="padding-top: 50px;">Our Advanteges</h1>
+        <h1 class="mb-0" style="color: white;">Discover the unique benefits we offer to enhance your business success.</h1>
+    </div>
+    <div class="row1-container">
+        <div class="box box-down cyan">
+          <h2 >Individual Approach</h2>
+          <p style="color: white;">We use an individual approach to each client</p>
+          <img src="/client/images/works/web/approach.png" alt="Individual Approach" >
+        </div>
+    
+        <div class="box red" >
+          <h2>24/7 Online Support</h2>
+          <!--to ensure your business operations run smoothly and efficiently.-->
+          <p>We provide round-the-clock support </p>
+          <img src="/client/images/works/web/support.png" alt="24/7 Online Support" >
+        </div>
+    <!--to make transactions convenient and secure for our clients.-->
+        <div class="box box-down blue">
+          <h2>Various Payment Methods</h2>
+          <p>We offer multiple payment options </p>
+          <img src="/client/images/works/web/money.png" alt="Various Payment Methods">
+        </div>
+      </div>
+      <div class="row2-container">
+        <div class="box orange">
+            <!--e are a team of designers, developers, marketing experts and managers who-->
+          <h2>Qualified Employees</h2>
+          <p>We are ready to work on a personalized web solution.</p>
+          <img src="/client/images/works/web/qualified.png" style="height: 35%; width: 20%;" alt="Qualified Employees">
+        </div>
+      </div>
+    </section>
+            <!--Advantages End-->
+        <!-- Quote Start -->
+
+        <section class="webquote discover wow bounceInLeft">
+          <div class="video-background">
+            <video autoplay loop muted playsinline>
+                <source src="/client/images/works/web/webVd.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+          <div class="container-fluid py-5">
+            <div class="container py-5">
+              <div class="row text-center">
+                <div class="col-lg-12 webquote-content">
+                  <!-- Main Heading -->
+                  <h1 class="webquote-heading" style="color: white;">Need A Quote?</h1>
+                  <!-- Subheading with Multiple Lines -->
+                  <p class="webquote-subheading" style="color: white;">
+                    Get in touch with our team today to receive a no-obligation quote tailored to your specific needs.<br>
+                    We're here to answer any questions you may have.<br>
+                    We'll provide detailed pricing information to help you make an informed decision.
+                  </p>
+        
+                  <!-- Call to Action Box -->
+                  <a href="/client/Pages/quote.html" class="btn-quote-transparent">
+                    <h5>REQUEST A FREE QUOTE</h5>
+                  </a>
+        
+                  <!-- Contact Information -->
+                  <div class="row mt-4 justify-content-center">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                      <img src="/client/images/icons/phone.png" class="request-img" />
+                      <a href="tel:+96170677712" class="webquote-link">Call to ask any question</a>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center justify-content-center mt-3 mt-md-0">
+                      <img src="/client/images/icons/24h.png" class="request-img" />
+                      <a href="https://wa.me/96170677712" class="webquote-link">Reply within 24 hours</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+        <!--Quote end-->
+               <!-- Testimonial Start -->
+       <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
+                <h1 class="mb-0">What Our Clients Say About Our Digital Services</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="../img/testimonial-1.jpg" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Client Name</h4>
+                            <small class="text-uppercase">Profession</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="../img/testimonial-2.jpg" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Client Name</h4>
+                            <small class="text-uppercase">Profession</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="../img/testimonial-3.jpg" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Client Name</h4>
+                            <small class="text-uppercase">Profession</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="../img/testimonial-4.jpg" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Client Name</h4>
+                            <small class="text-uppercase">Profession</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+          <!-- Team Start -->
+    <div class="container-fluid py-5 wow fadeInUp" style="background-color:#081f3e ;" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>
+                <h1 class="mb-0" style="color: white;">Professional Stuffs Ready to Help Your Business</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="../img/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Full Name</h4>
+                            <p class="text-uppercase m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="../img/team-2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Full Name</h4>
+                            <p class="text-uppercase m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="../img/team-3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Full Name</h4>
+                            <p class="text-uppercase m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Team End -->
+
+     <script defer src="../js/footer.js"></script>
+     <!-- Footer Start -->
+     <div id="footer-container"></div>
+<!-- Footer End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+   
+        <!-- Vendor Start -->
+        <!--
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 mb-5">
+                <div class="bg-white">
+                    <div class="owl-carousel vendor-carousel">
+                        <img src="../img/vendor-1.jpg" alt="">
+                        <img src="img/vendor-2.jpg" alt="">
+                        <img src="img/vendor-3.jpg" alt="">
+                        <img src="img/vendor-4.jpg" alt="">
+                        <img src="img/vendor-5.jpg" alt="">
+                        <img src="img/vendor-6.jpg" alt="">
+                        <img src="img/vendor-7.jpg" alt="">
+                        <img src="img/vendor-8.jpg" alt="">
+                        <img src="img/vendor-9.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Vendor End -->
+        
+  
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <script src="../lib/wow/wow.min.js"></script>
+        <script src="../lib/easing/easing.min.js"></script>
+        <script src="../lib/waypoints/waypoints.min.js"></script>
+        <script src="../lib/counterup/counterup.min.js"></script>
+        <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    
+        <!-- Template Javascript -->
+        <script src="../js/main.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+        <script src="../js/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lg-thumbnail@2.0.0/dist/lg-thumbnail.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lg-zoom@2.0.0/dist/lg-zoom.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var $grid = $('.isotope').isotope({
+            itemSelector: '.isotope-item',
+            layoutMode: 'fitRows'
+        });
+
+        // Bind filter button click
+        $('.isotope-filters-list').on('click', 'a', function() {
+            var filterValue = $(this).attr('data-isotope-filter');
+            $grid.isotope({ filter: filterValue });
+
+            $('.isotope-filters-list a').removeClass('webactive');
+         
+            $(this).addClass('webactive');
+        });
+     
+
+
+
+        // Initialize LightGallery
+        lightGallery($('#lightgallery1')[0]);
+        lightGallery($('#lightgallery2')[0]);
+        lightGallery($('#lightgallery3')[0]);
+        lightGallery($('#lightgallery4')[0]);
+        lightGallery($('#lightgallery5')[0]);
+        lightGallery($('#lightgallery6')[0]);
+        lightGallery($('#lightgallery7')[0]);
+        lightGallery($('#lightgallery8')[0]);
+        lightGallery($('#lightgallery9')[0]);
+        lightGallery($('#lightgallery10')[0]);
+        lightGallery($('#lightgallery11')[0]);
+        lightGallery($('#lightgallery12')[0]);
+        lightGallery($('#lightgallery13')[0]);
+        lightGallery($('#lightgallery14')[0]);
+    });
+</script>
+  
+    </body>
+
+          </html>

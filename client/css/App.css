@@ -1,0 +1,4 @@
+.bg-headerApp {
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/images/works/app/AppDevBack.png) center center no-repeat;
+    background-size: cover;
+}
